@@ -1,0 +1,67 @@
+#header {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    height: 80px;
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+#search {
+  background-color: #F8F9FA;
+}
+
+#searchbox {
+    background-color: white;
+    margin-top: 15px;
+}
+
+#cities {
+  background-color: #F8F9FA;
+  margin-left: -15px;
+}
+
+#city0, #city1, #city2, #city3, #city4, #city5, #city6, #city7 {
+    height: 50px;
+    border-width: 1px;
+    background-color: white;
+    border-color: #E6E9EC;
+    border-style: solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#forecasttable {
+    align-content: center;
+    text-align: center;
+
+}
+  
+  form.example input[type=text] {
+    padding-bottom: 4px;
+    font-size: 17px;
+    float: left;
+    width: 80%;
+    background-color: white;
+    border-bottom: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  form.example button {
+    width: 20%;
+    padding: 12px;
+    margin-top: 15px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }

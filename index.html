@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <title>Weather Dashboard</title>
+  </head>
+  <body>
+    <h1 class="container" id="header">Weather Dashboard</h1>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-4" id="search">
+          <form class="example" action="/action_page.php">
+            <input type="text" placeholder="Search.." id="cityName">
+            <button type="submit" id="citySearch"><i class="fa fa-search"></i></button>
+          </form>
+            <table class="table table-hover" id="citiestable">
+              <tbody>
+                <tr>
+                  <td id="city0"></td>
+                </tr>
+                <tr>
+                  <td id="city1"></td>
+                </tr>
+                <tr>
+                  <td id="city2"></td>
+                </tr>
+                <tr>
+                  <td id="city3"></td>
+                </tr>
+                <tr>
+                  <td id="city4"></td>
+                </tr>
+                <tr>
+                  <td id="city5"></td>
+                </tr>
+                <tr>
+                  <td id="city6"></td>
+                </tr>
+                <tr>
+                  <td id="city7"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        <div class="col-8" id="forecast">
+          <div id="weather">
+            <h2 id="city"></h2><h2 id="date"></h2>
+            <h4 id="descript"></h4>
+            <h5 id="temp"></h5>
+            <h5 id="humid"></h5>
+            <h5 id="wndspd"></h5>
+            <h5 id="uvindex"></h5>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-10" id="fiveday">
+          <div class="col s12 m2" id="dayone">
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <h6 id="date0">Date</h6>
+                <img src="...">
+                <p id="temp0">Temp</p>
+                <p id="humid0">Humidity</p>
+              </div>
+            </div> 
+          </div>
+          <div class="col s12 m2" id="daytwo">
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <h6 id="date1">Date</h6>
+                <img src="...">
+                <p id="temp1">Temp</p>
+                <p id="humid1">Humidity</p>
+              </div>
+            </div> 
+          </div>
+          <div class="col s12 m2" id="daythree">
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <h6 id="date2">Date</h6>
+                <img src="...">
+                <p id="temp2">Temp</p>
+                <p id="humid2">Humidity</p>
+              </div>
+            </div> 
+          </div>
+          <div class="col s12 m2" id="dayfour">
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <h6 id="date3">Date</h6>
+                <img src="...">
+                <p id="temp3">Temp</p>
+                <p id="humid3">Humidity</p>
+              </div>
+            </div> 
+          </div>
+          <div class="col s12 m2" id="dayfive">
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <h6 id="date4">Date</h6>
+                <img src="...">
+                <p id="temp4">Temp</p>
+                <p id="humid4">Humidity</p>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
+
+https://api.openweathermap.org/data/2.5/weather?id=6167865&appid=8a1839c44fab815c0b180e396f94cd14
